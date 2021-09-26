@@ -49,4 +49,3 @@ Sometimes it is useful to remove all docker's data.
 
 ```
 docker system prune
-```
