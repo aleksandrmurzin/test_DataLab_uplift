@@ -16,7 +16,7 @@ git pull https://github.com/aleksandrmurzin/test_datalab_uplitf.git
 ```
 Or you can just download it as a zip and use it without git.
 
-```
+
 
 2. Start containers
 
@@ -49,3 +49,4 @@ Sometimes it is useful to remove all docker's data.
 
 ```
 docker system prune
+```

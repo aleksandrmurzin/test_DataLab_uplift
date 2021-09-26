@@ -1,24 +1,7 @@
 import pandas as pd
-import numpy as np
-from scipy import stats as st
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import StratifiedShuffleSplit
 from xgboost import XGBRFClassifier
 from sklift.models import SoloModel, ClassTransformation, TwoModels
 from sklift.metrics import uplift_at_k
-from sklift.metrics import weighted_average_uplift
-from sklift.metrics import uplift_by_percentile
-from sklift.viz import plot_uplift_by_percentile
-from sklift.viz import plot_qini_curve
-from sklift.viz import plot_uplift_preds
-from sklift.viz import plot_uplift_curve
-from pandas_profiling import ProfileReport
-import joblib
 
 
 def combine_models(X_train, y_train, treat_train, X_test, y_test, treat_test):
