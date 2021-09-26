@@ -1,4 +1,4 @@
-# Data Science Project Template
+# Data Science test project
 
 
 This repo is inspired by Gleb Mikhailov  https://github.com/glebmikha/docker-for-datascience-course
