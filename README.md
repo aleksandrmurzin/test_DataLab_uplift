@@ -11,7 +11,7 @@ Create a new directory, cd into it, and then run
 
 ```
 git init
-git pull https://github.com/aleksandrmurzin/test_DataLab_uplitf.git
+git pull https://github.com/aleksandrmurzin/test_DataLab_uplift.git
 
 ```
 Or you can just download it as a zip and use it without git.
