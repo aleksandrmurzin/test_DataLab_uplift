@@ -3,8 +3,6 @@
 # Data Science test project
 
 
-This repo is inspired by Gleb Mikhailov  https://github.com/glebmikha/docker-for-datascience-course
-
 ## To start new Data Science project:
 
 1. Copy this repo
@@ -52,3 +50,6 @@ Sometimes it is useful to remove all docker's data.
 ```
 docker system prune
 ```
+
+This repo is inspired by Gleb Mikhailov  https://github.com/glebmikha/docker-for-datascience-course
+
